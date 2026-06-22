@@ -52,6 +52,7 @@ describe("editor settings seeding (writeVscodeUserSettings via setTheme)", () =>
     expect(s["update.mode"]).toBe("none");
     expect(s["extensions.autoCheckUpdates"]).toBe(false);
     expect(s["workbench.startupEditor"]).toBe("none");
+    expect(s["chat.commandCenter.enabled"]).toBe(false);
     // theme keys also present
     expect(s["workbench.colorTheme"]).toBe("Default Dark Modern");
   });

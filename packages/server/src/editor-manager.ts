@@ -142,6 +142,7 @@ function writeVscodeUserSettings(dataDir: string, theme: "dark" | "light" = "dar
     "update.mode": "none",
     "extensions.autoCheckUpdates": false,
     "workbench.startupEditor": "none",
+    "chat.commandCenter.enabled": false,
     ...existing,
     "window.autoDetectColorScheme": false,
     "workbench.preferredDarkColorTheme": darkTheme,
